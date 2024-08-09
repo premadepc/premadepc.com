@@ -17,6 +17,11 @@ build/
 
 # Static and temporary files
 *.local
+*.env
+*.env.local
+*.env.*.local
+.env
+.env.*
 output.log
 
 # Editor and IDE specific files
