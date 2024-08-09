@@ -1,0 +1,61 @@
+# Node modules
+node_modules/
+pnpm-lock.yaml
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Nuxt build and generated files
+.nuxt/
+dist/
+build/
+
+# Static and temporary files
+*.local
+*.env
+*.env.local
+*.env.*.local
+.env
+.env.*
+output.log
+
+# Editor and IDE specific files
+.idea/
+.vscode/
+*.swp
+*~
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Lock files
+package-lock.json
+yarn.lock
+
+# Nuxt and Vue specific
+.nuxt/
+.nuxt-spa/
+.nuxt-hybrid/
+
+# Tailwind generated file
+tailwind.config.js
+
+# Other temporary files
+*.log
+*.bak
+*.tmp
+
+# Coverage
+coverage/
+
+# Miscellaneous
+.sass-cache/
+*.pid
+*.seed

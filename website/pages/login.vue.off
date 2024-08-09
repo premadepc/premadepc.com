@@ -1,0 +1,39 @@
+<!-- pages/login.vue -->
+<!-- <template>
+    <div class="max-w-md mx-auto bg-white p-8 rounded-lg shadow-md">
+      <h1 class="text-3xl font-bold mb-6">Login</h1>
+      <form @submit.prevent="handleLogin">
+        <div class="mb-4">
+          <label for="username" class="block text-gray-700">Username</label>
+          <input
+            type="text"
+            id="username"
+            v-model="username"
+            class="w-full px-3 py-2 border rounded"
+          />
+        </div>
+        <BaseButton type="primary">Login</BaseButton>
+      </form>
+    </div>
+  </template>
+  
+  <script setup lang="ts">
+  import { ref } from 'vue';
+  import { useRouter } from 'vue-router';
+  import { useAuth } from '@/composables/useAuth';
+  import BaseButton from '@/components/BaseButton.vue';
+  
+  const username = ref('');
+  const router = useRouter();
+  const { login } = useAuth();
+  
+  const handleLogin = () => {
+    login(username.value);
+    router.push('/');
+  };
+  </script>
+  
+  <style scoped>
+  /* Add any additional styles here */
+  </style>
+   -->
