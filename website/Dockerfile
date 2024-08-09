@@ -4,8 +4,8 @@ FROM node:20
 # Set the working directory
 WORKDIR /app
 
-# Copy package.json and pnpm-lock.yaml
-COPY package.json pnpm-lock.yaml ./
+# Copy package.json
+COPY package.json ./
 
 # Install pnpm
 RUN npm install -g pnpm
