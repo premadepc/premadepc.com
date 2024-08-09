@@ -1,7 +1,7 @@
 // nuxt.config.ts
 export default defineNuxtConfig({
   compatibilityDate: '2024-08-03', // Updated to today's date
-  devtools: { enabled: true },
+  devtools: { enabled: false },
   // Global page headers
   app: {
     head: {

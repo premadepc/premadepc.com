@@ -16,8 +16,11 @@ RUN pnpm install
 # Copy the rest of the application code
 COPY . .
 
+# Build the application
+RUN pnpm run build
+
 # Expose the port Nuxt will run on
 EXPOSE 3000
 
 # Start the application
-CMD ["pnpm", "run", "dev"]
+CMD ["node", ".output/server/index.mjs"]

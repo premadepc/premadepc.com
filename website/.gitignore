@@ -11,6 +11,7 @@ lerna-debug.log*
 
 # Nuxt build and generated files
 .nuxt/
+.output/
 dist/
 build/
 
