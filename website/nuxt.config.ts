@@ -5,11 +5,11 @@ export default defineNuxtConfig({
   // Global page headers
   app: {
     head: {
-      title: 'Nuxt E-Commerce',
+      title: 'Premade PCs',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { hid: 'description', name: 'description', content: 'Nuxt E-Commerce website' }
+        { hid: 'description', name: 'description', content: 'Buy your next computer here!' }
       ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -31,8 +31,5 @@ export default defineNuxtConfig({
       '@fortawesome/free-brands-svg-icons',
       '@fortawesome/vue-fontawesome'
     ]
-  },
-  routeRules: {
-    '/': { redirect: '/welcome' },
   }
 })
